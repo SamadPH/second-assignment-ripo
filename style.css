@@ -102,6 +102,28 @@ h2{
     margin-top: 70px;
     margin-left: 180px;
     margin-right: 220px;
-    border: 1px dotted gray;
+    border: 0px dotted gray;
 }
 
+
+
+.football-icon img{
+    width: 483.87px;
+    height: 110px;
+}
+.copy-right img{
+width: 17px;
+height: 32px;
+
+
+}
+.bottom-line{
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 475px;
+    margin-top: 750px;
+}
+
+/* ...........................
+      Media Queirey
+................................ */
