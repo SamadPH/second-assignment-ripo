@@ -1,3 +1,46 @@
+/* font */
+body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+}
+.top-banner{
+    display: flex;
+    width: 1440px;
+    height: 695px;
+    background-color: #2D25A0;
+}
+.top-banner{
+    padding-top: 207px;
+    padding-left: 156px;
+}
+.top-title{
+    width: 485px;
+    height: 230px; 
+    
+}
+
+
 h1{
-    color: blue;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+.watch-button{
+    background-color: #E02C6D;
+    color: white;
+    width: 168px;
+    height: 44px;
+    padding: 
+    10px, 24px, 10px, 24px;
+    }
+    
+.messi img{
+    position: absolute;
+    width: 530.08px;
+    height: 442.37px;
+    padding-top: 151.95pxpx;
+    padding-left: 98.58px;
 }
