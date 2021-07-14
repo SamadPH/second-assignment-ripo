@@ -68,7 +68,14 @@ h2{
  
 .samad{
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px
+
 
     
 
@@ -81,6 +88,20 @@ h2{
     margin-top: 70px;
     margin-left: 180px;
     margin-right: 220px;
+    
+
 }
 
 /* ................third part.................... */
+
+.frame3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 220px;
+    border: 1px dotted gray;
+}
+
