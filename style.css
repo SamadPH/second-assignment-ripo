@@ -29,6 +29,8 @@ h1{
     font-size: 64px;
     line-height: 80px;
 }
+
+
 .watch-button{
     width: 168px;
     height: 44px;
@@ -40,6 +42,8 @@ h1{
    font-size: 16px;
    line-height: 24px;
     }
+
+
     
 .messi img{
     position: absolute;
@@ -60,6 +64,8 @@ h2{
    font-size: 28px;
    line-height: 40px;
 }
+
+
 .top3-player img{
     position: static;
     width: 300px;
@@ -80,7 +86,7 @@ h2{
     
 
 }
-.star{
+.players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -94,16 +100,6 @@ h2{
 
 /* ................third part.................... */
 
-.frame3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 70px;
-    margin-left: 180px;
-    margin-right: 220px;
-    border: 0px dotted gray;
-}
 
 
 
@@ -127,3 +123,12 @@ height: 32px;
 /* ...........................
       Media Queirey
 ................................ */
+/* Mobile Devie */
+
+@media only screen and (max-width:688px) {
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    
+}
